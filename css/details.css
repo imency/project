@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.tu{
+    width: 100%;
+    height: 2.08rem;
+
+}
+.tu>img{
+    width: 100%;
+    height: 2.08rem;
+}
+#tab{
+    width: 100%;
+    height: 0.46rem;
+    border-bottom:0.01rem solid gray;
+}
+#tab li{
+    width: calc(100%/3);
+    height: 0.46rem;
+    float:left;
+    line-height:0.46rem;
+    text-align: center;
+    font-size: 0.18rem;
+
+}
+#tab li>span.color{
+    color: #2cc17b;
+    border-bottom: 3px solid #2cc17b;
+    padding:0.08rem 0.2rem;
+    box-sizing: border-box;
+}
+
+
+#switch{
+    width: 3.75rem;
+    height: 1.7rem;
+}
+
+/* #switch>li:nth-child(1){
+    width: 100%;
+    height: 1.7rem;
+} */
+.wrap{
+    width: 100%;
+    height: 1.5rem;
+   padding:18px 4% 14px 4%;
+   background: #fff; 
+}
+.jianjie-title{
+    width: 3.45rem;
+    height: 0.26rem;
+    color: #3C4A55;
+    font-size:0.18rem;
+
+}
+.next{
+    width: 100%;
+    height: 0.33rem;
+    border-bottom: 1px solid lightgray;
+}
+.star{
+    width: 0.82rem;
+    height: 0.13rem;
+    float:left;
+    background: url(../images/4b13c7d5-142b-47a8-928c-c8069b4ef178.png) round no-repeat
+}
+.next>span{
+    width: 1.8rem;
+    height: 0.14rem;
+    float:left;
+    color: #70788C;
+font-size:0.12rem;
+
+}
+.time{
+    width: 3.5rem;
+    height: 0.56rem;
+}
+.time-top{
+    width: 100%;
+    height:0.15rem;
+    color: #151515;
+    font-size:0.20rem;
+    margin-top:0.20rem;
+}
+.time-top>span{
+    color: #151515;
+    font-size:0.12rem;
+    float:left;
+    line-height:0.30rem;
+}
+.tequan{
+    width: 1.8rem;
+    height: 0.21rem;
+    float:right;
+    line-height:0.21rem;
+    text-align: center;
+    border: 1px solid #ff632a;
+color: #ff632a;
+margin-right: 0.74rem;
+padding: 0.03rem;
+margin-left: 0.15rem;
+font-size: 0.12rem;
+}
+.time-bottom{
+    width: 100%;
+    height: 0.33rem;
+    line-height:0.33rem;
+    text-decoration: line-through;
+    font-size: 0.12rem;
+    padding: 0.1rem 0;
+    clear: left;
+    color: #70788C;
+}
+
+.line{
+width: 100%;
+height: 0.08rem;
+box-sizing: border-box;
+background-color: rgb(242, 244, 247)
+}
+.kecheng{
+font-size: 15px;
+margin-top: 20px;
+margin-bottom: 7px;
+line-height: 21px;
+color: #3C4A55;
+margin: 0 4%;
+font-weight: bold;
+}
+.jieshao{
+    width: 3.45rem;
+    height: 0.8rem;
+    margin:0 auto;
+    font-size: 14px;
+line-height: 19px;
+padding-bottom: 15px;
+margin-top:0.10rem;
+border-bottom: 1px solid #e6eae5;
+}
+.jieshao>p{
+    width: 100%;
+    height: 0.7rem;
+}
+.big-tu{
+    width: 3.45rem;
+    height: 9.50rem;
+    margin:0 auto;
+    background: url(../images/b67e7cf6-7362-4f11-8a6c-7e30b3ddbfac.jpg) round no-repeat
+}
+
+.mulu-title{
+    width: 3.75rem;
+    height: 0.5rem;
+    margin:0 auto;
+    line-height:0.5rem;
+    font-size:0.15rem;
+    padding-left:4%;
+    margin-top:0.10rem;
+    background: #f7f9fc;
+    border-bottom: 1px solid #ebeff7;
+    font-weight: bold;
+}
+.mulua{
+    width: 100%;
+    height: 0.72rem;
+    font-size:0.14rem;
+    padding-left:4%;
+    line-height:0.72rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ebeff7;   
+}
+
+.pin{
+    width: 3.75rem;
+    height: 1.15rem;
+    margin:0 auto;
+}
+.pin-top{
+    width: 3.55rem;
+    height: 0.16rem;
+    padding-left:4%;
+    margin-top:0.10rem;
+
+}
+body{
+    overflow-x: hidden;
+}
+.pin-left{
+    width: 0.6rem;
+    height: 0.16rem;
+    font-size:0.14rem;
+    float:left;
+    font-weight: bold;
+}
+.total{
+    width: 0.8rem;
+    height: 0.16rem;
+    float:right;
+    color: #a4a9b2;
+    font-size: 0.14rem;
+}
+.pin-star{
+        width: 3.55rem;
+        height: 0.68rem;
+        margin:0 auto;
+        margin-top:0.10rem;
+}
+.star-left{
+    width: 0.83rem;
+    height: 0.67rem;
+    font-size: 0.6rem;
+    margin-right: 10px;
+    float:left;
+}
+.pin-star>span{
+    color: #333740;
+font-size: 0.15rem;
+float:left;
+line-height:1rem;
+}
+.xing{
+    width: 0.4rem;
+    height: 0.42rem;
+    float:left;
+}
+.xing>img{
+    width: 0.4rem;
+    height: 0.42rem;
+    float:left;
+    margin-top:0.2rem;
+}
+.lis{
+    width: 1.91rem;
+    height: 0.58rem;
+    float:right;
+    margin-top:0.10rem;
+}
+.lis>img{
+    width: 1.91rem;
+    height: 0.58rem;
+    float:right;
+}
+.pinjia-content{
+    width: 3.75rem;
+    height: 1.1rem;
+    position: relative;
+}
+.pinjia-tu{
+    width: 0.56rem;
+    height:0.66rem;
+    position: relative;
+    margin-left: 0.2rem
+}
+
+.pinjia-tu>img{
+    width: 0.36rem;
+    height: 0.36rem;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    left:0;
+    margin-left:0.09rem;
+    margin-top:0.09rem;
+}
+.pinjia-txt{
+    width: 2.8rem;
+    height: 1.1rem;
+    float:left;
+    position: absolute;
+    top:0;
+    right:0;
+
+}
+.one-line{
+    width: 3rem;
+    height: 0.18rem;
+    float:left;
+    position: relative;
+}
+.pina{
+    width: 0.95rem;
+    height: 0.18rem;
+    float:left;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    font-size:0.12rem;
+}
+.five{
+    width: 0.9rem;
+    height: 0.18rem;
+    float:right;
+}
+.five>img{
+    width: 0.9rem;
+    height: 0.18rem;
+    position: absolute;
+    right:0.2rem;
+    top:0;
+}
+.two-line{
+    width: 3rem;
+    height: 0.15rem;
+    float:left;
+}
+.two-line-left{
+    width: 1.4rem;
+    height: 0.3rem;
+    font-size:0.12rem;
+    color: #A4A9B2;
+    line-height: 0.3rem;
+    float:left;
+}
+
+.date{
+    width: 0.7rem;
+    height: 0.15rem;
+    float:right;
+    font-size:0.14rem;
+    color: #A4A9B2;
+
+    
+}
+.good{
+    width: 3rem;
+    height: 0.2rem;
+    float: left;
+    font-size:14px;
+    margin-top:0.3rem
+}
+.dibu{
+    width: 100%;
+    height: 0.48rem;
+    background: #fff;
+    bottom: 0;
+    position: fixed;
+    border-top: 1px solid rgba(221, 221, 221, 0.4);
+}
+.gocar{
+    width: 0.8rem;
+    height: 0.48rem;
+    float:left;
+    position: relative;
+    font-size:0.12rem;
+}
+.gocar>img{
+    width: 0.25rem;
+    height: 0.28rem;
+    position: absolute;
+   margin-left:0.37rem;
+}
+.gocar>span{
+    width: 0.8rem;
+    height: 0.25rem;
+    position: absolute;
+    bottom: -0.05rem;
+    margin-left:0.2rem;
+}
+.join-study{
+    width: 2.5rem;
+    height: 0.5rem;
+color: #fff;
+background: #FF632A;
+font-size: 15px;
+float: left;
+text-align: center;
+border-radius: 200px;
+margin-left:0.4rem;
+line-height:0.5rem;
+font-size:0.16rem;
+}
+
